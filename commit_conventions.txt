@@ -1,0 +1,21 @@
+# Commit syntax
+
+Each commit should follow the Conventional Commits convention:
+
+    <type>(<optional scope>): <description>
+
+    [optional body]
+
+    [optional footer]
+
+# Commit types used
+
+    - feat
+    - chore
+    - docs
+
+# Commit scopes used
+    - `vc`: doing something with version control
+    - `setup`: doing something to setup the repo
+    - `data`: doing something with raw data
+    - `constants`: doing something with a constants-only file
