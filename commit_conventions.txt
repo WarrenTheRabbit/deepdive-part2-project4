@@ -1,6 +1,6 @@
 # Commit syntax
 
-Each commit should follow the Conventional Commits convention:
+Each commit should follow the Conventional Commits format:
 
     <type>(<optional scope>): <description>
 
@@ -10,24 +10,26 @@ Each commit should follow the Conventional Commits convention:
 
 # Commit types used
 
-    - chore: small maintenance tasks that don't affect application behaviour
-        e.g. chore(vc): add empty file to document commit conventions
-
-    - ci: changes related to CI configuration files and scripts
-        e.g. ci(vc): update with mypy pre-commit hook
-
-    - docs: documentation
-        e.g. docs(vc): update commit conventions.
-
-    - exp: an experiment committed only for learning/checking purposes.
-        e.g. exp(vc): test mypy hook with `int + str` expression
-
-    - feat:
-        e.g. feat(data): add initial dataset files
-        e.g. feat(constants): add paths for dataset files
+- chore: small maintenance tasks that don't affect application behaviour.
+- ci: changes related to CI configuration files and scripts
+- docs: documentation
+- exp: an experiment committed only for learning/checking purposes.
+- feat: introduces a new feature or significantly enhances an existing feature.
+- style: no change to information content or code logic.
 
 # Commit scopes used
-    - `vc`: doing something with version control
-    - `setup`: doing something to setup the repo
-    - `data`: doing something with raw data
-    - `constants`: doing something with constants
+
+`vc`: doing something with version control
+`setup`: doing something to setup the repo
+`data`: doing something with raw data
+`constants`: doing something with constants
+
+# Examples of commits
+
+type(scope): description
+chore(vc): add empty file to document commit conventions
+ci(vc): update with mypy pre-commit hook
+docs(vc): update commit conventions.
+exp(vc): test mypy hook with `int + str` expression
+feat(data): add initial dataset files
+feat(constants): add paths for dataset files
