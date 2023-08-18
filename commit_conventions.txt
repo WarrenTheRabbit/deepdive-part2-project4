@@ -10,13 +10,24 @@ Each commit should follow the Conventional Commits convention:
 
 # Commit types used
 
-    - feat:
-    - chore:
+    - chore: small maintenance tasks that don't affect application behaviour
+        e.g. chore(vc): add empty file to document commit conventions
+
+    - ci: changes related to CI configuration files and scripts
+        e.g. ci(vc): update with mypy pre-commit hook
+
     - docs: documentation
-    - experiment: code committed only for learning/testing purposes.
+        e.g. docs(vc): update commit conventions.
+
+    - exp: an experiment committed only for learning/checking purposes.
+        e.g. exp(vc): test mypy hook with `int + str` expression
+
+    - feat:
+        e.g. feat(data): add initial dataset files
+        e.g. feat(constants): add paths for dataset files
 
 # Commit scopes used
     - `vc`: doing something with version control
     - `setup`: doing something to setup the repo
     - `data`: doing something with raw data
-    - `constants`: doing something with a constants-only file
+    - `constants`: doing something with constants
