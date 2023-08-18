@@ -1,3 +1,6 @@
+Reading this document should make you familiar with how commit messages are written for this project. It provides examples that will help you be consistent with previous commits. You can also read through the project's commit history for more examples.
+If you come across commit types or scopes that frequently appear in the commit history but are not documented here, a helpful contribution is to update this document with the missing types and/or scopes.
+
 # Commit syntax
 
 Each commit should follow the Conventional Commits format:
@@ -8,7 +11,9 @@ Each commit should follow the Conventional Commits format:
 
     [optional footer]
 
-# Commit types used
+# Commit Types used
+
+As a convenience, some of the types used in the project so far are listed below.
 
 - chore: small maintenance tasks that don't affect application behaviour.
 - ci: changes related to CI configuration files and scripts
@@ -17,7 +22,10 @@ Each commit should follow the Conventional Commits format:
 - feat: introduces a new feature or significantly enhances an existing feature.
 - style: no change to information content or code logic.
 
-# Commit scopes used
+# Commit Scopes used
+
+As a convenience, some of the scopes used in the project so far are listed
+below.
 
 `vc`: doing something with version control
 `setup`: doing something to setup the repo
