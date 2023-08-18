@@ -10,9 +10,10 @@ Each commit should follow the Conventional Commits convention:
 
 # Commit types used
 
-    - feat
-    - chore
-    - docs
+    - feat:
+    - chore:
+    - docs: documentation
+    - experiment: code committed only for learning/testing purposes.
 
 # Commit scopes used
     - `vc`: doing something with version control
